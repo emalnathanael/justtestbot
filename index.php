@@ -2,12 +2,13 @@
 /*
 copyright @ medantechno.com
 Modified by Ilyasa
+create by emaaL
 2017
 */
 require_once('./line_class.php');
 
 $channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //Your Channel Access Token
-$channelSecret = 'YOUR-CHANNEL-SECRET';//Your Channel Secret
+$channelSecret = 'Kcm8fsruh4MhEp2AKaQIEtihVHbw6G5I7EKdnSZ4xKB5IuYXeQ6gemt69y7cfsNsKlRqghCYhZH0x+l67Acpl1rHLCsnGYCImQ7nYaCJbZpYJNSWJ6+mOBppUtf/Wh4k85nIHmLXeJHnEvJqyhgLmAdB04t89/1O/w1cDnyilFU=';//Your Channel Secret
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
@@ -34,7 +35,7 @@ if($message['type']=='sticker')
 }
 else
 $pesan=str_replace(" ", "%20", $pesan_datang);
-$key = 'YOUR-API-KEY-SIMSIMI'; //API SimSimi
+$key = 'd6662bf9-7830-4ea7-826a-3ca2ddfb15a1'; //API SimSimi
 $url = 'http://sandbox.api.simsimi.com/request.p?key='.$key.'&lc=id&ft=1.0&text='.$pesan;
 $json_data = file_get_contents($url);
 $url=json_decode($json_data,1);
