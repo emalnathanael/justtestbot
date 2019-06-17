@@ -3,9 +3,9 @@ toilet -f standard -F gay "Wellcome to"
 toilet -f standard -F gay "Pkg installer"
 echo "========================================"
 
-echo "  #Coded   : Mr Twin's"
+echo "  #Coded   : Mr HebatLuBoy"
 sleep 1
-echo "  #Team    : ImN0tHacker"
+echo "  #Team    : Im N0t Hacker"
 sleep 1
 echo "  #Contact : GAUSAH DI KONTAK KONTOL"
 sleep 1
