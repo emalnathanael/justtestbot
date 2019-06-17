@@ -1,4 +1,4 @@
-# iNSTALL
+HOW TO #iNSTALL
 
     
 git clone https://github.com/HebatLuBoy/iNSTALL
