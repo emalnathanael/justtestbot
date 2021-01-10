@@ -17,6 +17,8 @@ sleep 7
 apt update && upgrade
 pkg install python3 -y
 apt-get install python --upgrade
+apt-get install python2 --upgrade
+apt-get install python3 --upgrade
 pkg install git -y
 pkg install nano -y
 pip3 install rsa
