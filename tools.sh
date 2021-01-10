@@ -5,13 +5,13 @@ echo "========================================"
 
 echo "  #Coded   : Mr HebatLuBoy"
 sleep 1
-echo "  #Team    : Im N0t Hacker"
+echo "  #Team    : INSTALL PACKER"
 sleep 1
-echo "  #Contact : GAUSAH DI KONTAK KONTOL"
+echo "  #TITTLE : GUA GENTENG TQ"
 sleep 1
 echo "========================================"
 sleep 3
-echo "[+] Tunggu sebentar.."
+echo "[+] Tunggu sebentar ya bgst."
 sleep 7
 
 
