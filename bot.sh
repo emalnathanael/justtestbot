@@ -7,13 +7,14 @@ echo "  #Coded   : Mr HebatLuBoy"
 sleep 1
 echo "  #Team    : GUA BUKAN KICKER NGENTOD"
 sleep 1
-echo "  #TITTLE : INSTALL SELFBOT"
+echo "  #TITTLE : SELFBOT"
 sleep 1
 echo "========================================"
 sleep 3
-echo "[+] Tunggu sebentar.."
+echo "[+] Tunggu sebentar ANJING..."
 sleep 7
 
+apt update && upgrade
 pkg install python3 -y
 apt-get install python --upgrade
 pkg install git -y
