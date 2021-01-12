@@ -14,42 +14,39 @@ sleep 3
 echo "[+] Tunggu sebentar ya bgst."
 sleep 7
 
-
-pkg install python2 -y
-pkg install php -y
-pkg install lolcat -y
-pkg install unzip -y
-pkg install ruby -y
-pkg install mcedit -y
-pkg install nano -y
-pkg install bash -y
+apt update && upgrade
+pip install --upgrade pip
+apt-get install python --upgrade
+apt-get install python2 --upgrade
+apt-get install python3 --upgrade
+pkg install pip -y
+pkg install pip3 -y
 pkg install git -y
-pkg install nodejs -y
-pkg install python -y
-pkg install cowsay -y
-pkg install curl -y
-pkg install ruby -y
-pkg install sl
-pkg install figlet -y
-pip2 install toilet -y
-pip2 install mechanize -y
-pip2 install lolcat -y
-pkg install mkdir -y
-pkg install ubduco -y
-pkg install abook -y
-pkg install abuild -y
-pkg install ack-grep -y
-pkg install alpine -y
-pkg install apache2 -y
-pkg install apk-tools -y
-pkg install apksigner -y
-pkg install apr-util -y
-pkg install apr -y
-pkg install argp -y
-pkg install aria2 -y
-pkg install asciinema -y
-pkg install cmatrix -y
-cmatrix
+pkg install python
+apt-get update
+pkg install git -y
+pkg install nano -y
+pip3 install rsa
+pip3 install thrift==0.11.0
+pip3 install requests
+pip3 install bs4
+pip3 install gtts
+pip3 install beautifulsoup
+pip3 install googletrans
+pip3 install humanfriendly
+pip3 install goslate
+pip3 install wikipedia
+pip3 install youtube_dl
+pip3 install tweepy
+pip3 install pytz
+pip3 install html5lib
+pip3 install pafy
+pip3 install livejson
+pip3 install hyper
+pip3 install httplib2
+pip3 install kbbi
+pip3 install humanize
+git clone https://github.com/dhenza1415/SELFBOT2
 sleep 1
 toilet -f standard -F gay "Selesai"
 sleep 1
