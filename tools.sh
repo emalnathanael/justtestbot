@@ -46,7 +46,8 @@ pip3 install hyper
 pip3 install httplib2
 pip3 install kbbi
 pip3 install humanize
-git clone https://github.com/dhenza1415/SELFBOT2
+apt install toilet
+apt install gay
 sleep 1
 toilet -f standard -F gay "Selesai"
 sleep 1
